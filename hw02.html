@@ -1521,8 +1521,7 @@ border-radius: 0px;
 <h2><span class="header-section-number">1.1</span> Number of names</h2>
 <p>Create a vector containing the names Frodo, Sam, Legolas, Gimli,
 Boromir, Pippin, Merry, Aragron, and Gandalf (in that order). Then use
-the <code>length()</code> function to calculate the number names in the
-vector.</p>
+an appropriate function to count the number of names in the vector.</p>
 <p>vars:</p>
 <ul>
 <li><code>fellowship</code> - vector containing names</li>
@@ -1532,7 +1531,7 @@ vector.</p>
 <div id="indexing" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Indexing</h2>
 <p>Use vector indexing to create a new vector containing the names
-Frodo, Sam, Pippin, and Merry.</p>
+Frodo, Sam, Pippin, and Merry (in that order).</p>
 <p>var: <code>hobbits</code></p>
 </div>
 <div id="removing-elements" class="section level2" number="1.3">
@@ -1576,8 +1575,8 @@ which options you should be using.</p>
 <h1><span class="header-section-number">3</span> Addition</h1>
 <p>Create a vector containing the numbers 1 through 30 (how can we do
 this without typing out all 30 numbers?). Next, add 1 to every third
-number (elements, 3, 6, 9, etc. should each be incremented by 1) Be sure
-to make use of recycling.</p>
+number (elements, 3, 6, 9, etc. should each be incremented by 1). Be
+sure to make use of recycling.</p>
 <p>var: <code>nums</code> - result of adding 1 to every third number of
 1 through 30</p>
 </div>
@@ -1616,7 +1615,8 @@ start with 3).</p>
 <h2><span class="header-section-number">5.1</span> Square root</h2>
 <p>First create a vector of all even numbers from -8 to 24 (inclusive -
 first number should be -8 and last number should be 24).</p>
-<p>Use <code>sqrt</code> to find the square root of these numbers.</p>
+<p>Then use <code>sqrt</code> to find the square root of these
+numbers.</p>
 <p>var: <code>sqrt_even</code></p>
 </div>
 <div id="mean" class="section level2" number="5.2">
@@ -1702,7 +1702,7 @@ function <code>rnorm()</code> to draw values from a normal distribution
 (“r” stands for random and “norm” is short for “normal”) with mean 10
 and standard deviation 3 (check <code>?rnorm</code> for information
 about the arguments). After generating the numbers, use
-<code>hist(x)</code> function to create a histogram of the values.</p>
+<code>hist(x)</code> to create a histogram of the values.</p>
 <p>vars:</p>
 <ul>
 <li><code>x</code>: 100 random numbers</li>
@@ -1711,15 +1711,15 @@ about the arguments). After generating the numbers, use
 number generate to 212 (<code>set.seed(212)</code>). This ensures that
 your randomly generated numbers will be the same as those used in the
 answer key. Make sure this line of code appears before you generate the
-random numbers using <code>runif()</code>.</strong></p>
+random numbers using <code>rnorm()</code>.</strong></p>
 </div>
 <div id="calculate-y" class="section level2" number="8.2">
 <h2><span class="header-section-number">8.2</span> Calculate
 <code>y</code></h2>
-<p>Suppose that the values <code>x</code> (from the previous question)
-are x coordinates for a line with slope 2 and intercept 3. Calculate the
-y coordinates. Afterwards, plot the resulting line using the
-<code>plot()</code> function (the first argument should be the x
+<p>Suppose that the values in <code>x</code> (from the previous
+question) are x coordinates for a line with slope 2 and intercept 3.
+Calculate the y coordinates. Afterwards, plot the resulting line using
+the <code>plot()</code> function (the first argument should be the x
 coordinates and the second argument should be the y coordinates).</p>
 <p>var: <code>y</code></p>
 </div>
@@ -1727,7 +1727,7 @@ coordinates and the second argument should be the y coordinates).</p>
 <h2><span class="header-section-number">8.3</span> Add error</h2>
 <p>Let’s add some random error to the y coordinates. Using the
 <code>rnorm()</code> function, add random error to each of the y
-coordinates. Use <code>mean = 0</code>, and <code>sd = 4</code>. Like in
+coordinates. Use <code>mean = 0</code>, and <code>sd = 6</code>. Like in
 the previous question, create a scatter plot, this time using the
 modified y coordinates.</p>
 <p>var: <code>y2</code> - y coordinates with error added.</p>
